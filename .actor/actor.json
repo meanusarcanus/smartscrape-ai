@@ -1,0 +1,11 @@
+{
+  "actorSpecification": 1,
+  "name": "smartscrape-ai-web-extractor",
+  "title": "SmartScrape AI Web Data Extractor",
+  "description": "Extract structured JSON (title, price, specs, stock) from any URL using AI—no CSS selectors needed.",
+  "version": "1.0.0",
+  "meta": {
+    "category": "WEB_SCRAPING"
+  },
+  "dockerfile": "./Dockerfile"
+}

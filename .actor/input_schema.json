@@ -1,0 +1,22 @@
+{
+  "title": "SmartScrape AI Web Extractor Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "url": {
+      "title": "Target Website URL",
+      "type": "string",
+      "description": "URL of the page to scrape and extract JSON data from.",
+      "editor": "textfield",
+      "prefill": "https://example.com/product/123"
+    },
+    "extraction_targets": {
+      "title": "Fields to Extract",
+      "type": "array",
+      "description": "Target JSON fields to extract.",
+      "editor": "json",
+      "prefill": ["product_name", "price", "stock_status"]
+    }
+  },
+  "required": ["url"]
+}
