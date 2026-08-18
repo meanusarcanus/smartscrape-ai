@@ -7,5 +7,6 @@
   "meta": {
     "category": "WEB_SCRAPING"
   },
-  "dockerfile": "./Dockerfile"
+  "dockerfile": "./Dockerfile",
+  "output": "./output_schema.json"
 }
